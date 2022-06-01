@@ -1,0 +1,226 @@
+li{
+     text-transform: capitalize;
+}
+
+td,th{
+     border:1px solid black;
+     padding: 5px;
+}
+td{
+     text-align: center;
+}
+table{
+     border-collapse: collapse;
+}
+
+.colorPar{
+     background-color: darkcyan;
+}
+
+.colorImpar{
+     background-color: coral;
+}
+
+.cabecera{
+     background-color: wheat;
+     font-size: 1rem;
+     color: royalblue;
+     text-transform: uppercase;
+}
+
+tr.colorImpar:hover,
+tr.colorPar:hover{
+     background-color: white;
+     color: yellowgreen;
+}
+
+.pointer{
+     cursor:pointer;
+     user-select: none;
+}
+
+.container{
+     width: 50%;
+     background-color: darkolivegreen;
+     padding-top: 2px;
+     margin: 0 auto;
+}
+.tabla{
+     width: 100%;
+     display: inline-block;
+     margin-right: 420px;
+}
+body{
+     justify-content: center;
+}
+
+.header{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.main{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 50%;
+}
+
+.table-container{
+     width: 50%;
+}
+
+.form-container{
+     margin-bottom: 10px;
+}
+.spinner{
+     border:4px solid rgba(0, 0, 0, 0.941);
+     width: 36px;
+     height: 36px;
+     border-radius:50%;
+     border-left-color: transparent;
+
+     animation: spin 1s linear infinite;
+}
+
+.CamposDatos{
+     width: 90%;
+     border-radius: .25rem;
+     background-color: lightgray;
+     height: 25px;
+     
+}
+.CamposDatosImagen{
+     width: 70%;
+     border-radius: .25rem;
+     background-color: lightgray;
+     height: 25px;
+     
+}
+.lblDatos{
+     float: left;
+     margin-left: 30px;
+     font-family: 'Roboto', sans-serif;
+}
+.principal{
+     text-align: center;
+}
+.fsFormulario{
+     width: 50%;
+     display: inline-block;
+}
+.btnGuardar{
+     background-color:#2ecc71 ;
+     display: inline-block;
+	font-weight: 400;
+	color: #212529;
+	text-align: center;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	color: #fff;
+
+}
+.btnEliminar{
+     display: inline-block;
+	font-weight: 400;
+	color: #212529;
+	text-align: center;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	color: #fff;
+	background-color: #e74c3c;
+}
+.btnModificar{
+     display: inline-block;
+	font-weight: 400;
+	color: #212529;
+	text-align: center;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	color: #fff;
+	background-color: #007bff;
+}
+.btnModificar:hover{
+     background-color: grey;
+     color: yellowgreen;
+}
+.btnCancelar{
+     display: inline-block;
+	font-weight: 400;
+	color: #212529;
+	text-align: center;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	color: #fff;
+	background-color: #f1c40f;
+}
+
+@keyframes spin {
+     0%{
+          transform:rotate(0deg);
+     }
+     100%{
+          transform:rotate(360deg)
+     }
+}
+
+.box {
+     display: flex;
+   }
+ 
+   .logo{
+       width: 150px;
+       height: 100px;
+   }
+ 
+   .navegacion{
+     margin-left: 1000px;margin-top: 5px;
+   }
+   .link{
+     color: white;
+     margin-left: 1000px;margin-top: 5px;
+   }
+.banner{
+      height: 250px;
+      background-image: url(./assets/banner.jpeg);
+      background-size:cover;
+      background-repeat: no-repeat;
+  }
+
+   .footer-links {
+     list-style-type: none;
+     display: inline-block !important;
+     text-decoration: none;
+   }
+ 
+ 
+   footer {
+     position: fixed;
+     height: 50px;
+     width: 100%;
+     left: 0;
+     bottom: 0;
+     display: inline-block;
+     text-decoration: none;
+     background-color: #2d7be0 !important;
+     color: white;
+   }
+  
+   .linksFooter{
+       margin-left: 10px;
+       margin-top: 15px;
+   }
